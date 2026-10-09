@@ -205,3 +205,6 @@ $RECYCLE.BIN/
 /force-pull.bat
 /reset-history.bat
 /wip.bat
+
+# Application output
+output/
