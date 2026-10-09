@@ -1,0 +1,22 @@
+# AI Minutes: Voice Recording, Diarization & Transcription
+# -------------------------------------------------------------
+# Core audio recording & I/O
+sounddevice>=0.5.0
+soundfile>=0.13.0
+numpy>=1.26.0
+av>=11,<14
+
+# Audio feature extraction
+librosa>=0.10.0
+
+# Speech Recognition (faster-whisper with CTranslate2)
+faster-whisper>=1.1.0
+
+# Speaker Diarization (Nemotron-3-Diarization via PyTorch & Transformers)
+torch>=2.4.0
+torchaudio>=2.4.0
+transformers>=4.48.0
+huggingface-hub>=0.28.0
+
+# Testing
+pytest>=8.0.0
